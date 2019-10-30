@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.todoform {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background: rgba(0,0,0,.5);
+  display: space-between;
+  align-items: center;
+  justify-content: center;
+}
+
+.todoform input {
+  
+}
+
+.todoform button {
+  border: 1px solid red;
+  background: transparent;
+  width: 100px;
+  height: 50px;
+  transition-duration: 0.4s;
+  margin: 5px;
+}
+
+.todoform button:hover {
+  background: red;
+  color: white;
+  cursor: pointer;
+}
